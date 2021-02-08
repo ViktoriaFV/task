@@ -1,10 +1,13 @@
-function f()
-{ if ()
-const con = (a) => {
-  return (b) => {
+function f(a, b)
+{ 
+  if (b !== undefined)
+  {return  a+b;}
+  else { return  (b) => {
       return a + b;
     }
 }
 }
-console.log(con(2)(3)) ;
+
+
+console.log(f(2)(3)) ;
 

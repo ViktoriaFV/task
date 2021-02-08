@@ -43,9 +43,7 @@ function  summ() {
      } 
     const summ = sum.reduce((acc, value) => acc + value, 0);
     return summ;
-    // let summN = filterNum.reduce((acc, value) => acc + value, 0);
-
-    // let sum = (summ - summN)/2;
+    
      
    
  }  
